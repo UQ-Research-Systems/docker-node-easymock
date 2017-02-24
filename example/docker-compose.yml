@@ -1,7 +1,7 @@
 version: '2'
 services:
   json-api:
-    build: ../
+    image: jwisgerhof/node-easymock
     ports:
       - "3000:3000"
     volumes:
