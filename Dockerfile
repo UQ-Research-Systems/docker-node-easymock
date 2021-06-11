@@ -1,6 +1,6 @@
 FROM node:14-slim
 
-RUN npm install -g easymock
+RUN sudo npm install -g easymock
 
 VOLUME /data
 
