@@ -1,4 +1,4 @@
-FROM node:5-slim
+FROM node:14-slim
 
 RUN npm install -g easymock
 
